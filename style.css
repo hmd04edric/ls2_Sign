@@ -1,12 +1,13 @@
 .body {
     font-family: Poppins;
 }
-
-.container {
+.Signup_banner{
     background-image: url(/imgs/Image.svg);
-    padding: 367px 112px 369px 112px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.container {
+    margin:  112px auto;
 }
 
 .popup {
@@ -190,12 +191,13 @@
 }
 
 /* Signup */
-.login_container {
-    background-image: url(/ls2/imgs/bgr.svg);
-    padding: 87px 323px 76px 322px;
+.login_banner{
+    background-image: url(/imgs/bgr.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+.login_container {
+    margin: 87px auto 76px auto;
 
 .login {
 
@@ -203,7 +205,8 @@
     border-radius: 24px;
     padding: 40px 134px 40px 133px;
     position: relative;
-    max-width: 795px;
+    max-width: 528px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -238,6 +241,7 @@
     justify-content: center;
     font-weight: 400px;
     font-size: 16px;
+    gap: 4px;
 }
 
 .login_signup-link a {
