@@ -1,13 +1,19 @@
-.body {
+body {
     font-family: Poppins;
+    margin: 0;
 }
 .Signup_banner{
     background-image: url(/imgs/Image.svg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .container {
-    margin:  112px auto;
+    margin: 0 auto;
+    width: 100%;
+    
 }
 
 .popup {
@@ -16,8 +22,9 @@
     border-radius: 24px;
     padding: 48px 88px;
     position: relative;
-    max-width: 795px;
+    max-width: 528px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .popup__close {
@@ -191,13 +198,16 @@
 }
 
 /* Signup */
-.login_banner{
+.Login_banner{
     background-image: url(/imgs/bgr.svg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .login_container {
-    margin: 87px auto 76px auto;
+    margin: 0 auto;
 
 .login {
 
